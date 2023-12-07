@@ -1,0 +1,72 @@
+body {
+    background-image: url('n3.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+  
+  }
+  .containery {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+ 
+  .centereg {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white
+  }
+
+
+  .left {
+    position: absolute;
+    top: 10px;
+    left: 180px;
+  }
+  
+
+
+  .leftu {
+    position: absolute;
+    top: 10px;
+    left: 270px;
+  }
+
+
+  .leftr {
+    position: absolute;
+    top: 10px;
+    left: 360px;
+  }
+
+
+  /* Estilo para la tabla */
+  table {
+    width: 80%;
+    border-collapse: collapse;
+    text-align: center;
+  }
+  
+  /* Estilo para las celdas de encabezado */
+  th {
+    background-color: #5a0404;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  /* Estilo para las celdas de datos */
+  td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    color: #fff;
+  }
